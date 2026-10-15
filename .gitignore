@@ -1,0 +1,83 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/.vinext/
+/out/
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+# typescript
+next-env.d.ts
+/dist/
+/.wrangler/
+# Checkout-local execution profile and tool state; never publish them.
+/.sites-runtime/
+/.agents/
+/.codex/
+/outputs/
+/work/
+.env
+.env.*
+*.env
+*.key
+id_rsa*
+__pycache__
+*.pyc
+venv
+.venv
+.*-venv
+runtime-venv
+node_modules
+.next
+.wrangler
+*.zip
+*.tar.gz
+.claude
+.openclaude
+.ipynb_checkpoints
+*.sqlite
+*.sqlite3*
+*.db
+*.db-*
+.pytest_cache
+*.egg-info
+.runtime
+.build
+*.log
+.fly-config
+Thumbs.db
+*.mov
+*.mp4
+.openai
+tsconfig.tsbuildinfo
+.sites-runtime
+dist
+!.env.example
